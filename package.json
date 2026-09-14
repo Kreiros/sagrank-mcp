@@ -1,0 +1,39 @@
+{
+  "name": "sagrank-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for SAG RANK. Audit AEO, GEO, Core Web Vitals, AI Crawlers, and compare websites directly in Cursor, Windsurf, Claude and Antigravity.",
+  "main": "src/index.js",
+  "bin": {
+    "sagrank-mcp": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "dev": "node --watch bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sagrank",
+    "seo",
+    "aeo",
+    "geo",
+    "answer-engine-optimization",
+    "core-web-vitals",
+    "ai-crawlers",
+    "gptbot",
+    "llmstxt",
+    "cursor",
+    "windsurf",
+    "claude-desktop"
+  ],
+  "author": "Kreiros",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
